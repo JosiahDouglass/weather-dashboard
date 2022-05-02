@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    background-color: blue;
+    color: white;
+}
+
+#fiveDay {
+    border-top: 2px solid black;
+}
+
+#history {
+    border-top: 2px solid black;
+}
+
+#forecast {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
