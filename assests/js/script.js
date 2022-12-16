@@ -24,7 +24,7 @@ let historySetupHandler = function() {
         // Creates a button for each item in the search history
         let historyItem = document.createElement("button");
         historyItem.textContent = historyGet;
-        historyItem.classList = "form-control bg-secondary text-white";
+        historyItem.classList = "form-control bg-secondary text-white mb-2";
         history.appendChild(historyItem);
     }
 }
