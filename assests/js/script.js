@@ -107,7 +107,7 @@ let weatherDataHandler = function(Lat,Lng,name) {
                     }
                     // creates a card
                     let fiveDayCard = document.createElement("div");
-                    fiveDayCard.classList = "card col"
+                    fiveDayCard.classList = "card col m-2"
 
                     let fiveDayName = document.createElement("h6");
                     fiveDayName.textContent = moment().add(i+1, 'days').calendar();
